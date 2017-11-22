@@ -19,7 +19,6 @@ export const Background = styled.div`
   width: 80vw;
   top: 10vh;
   height: 100vh;
-  background-image: url(${require('../../assets/logo.jpg')});
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;

@@ -25,7 +25,6 @@ export const Title = styled.h2`
 
 export const ProfileImage = styled.div`
   height: 120vh;
-  background-image: url('${require('../../assets/profile.jpg')}');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -71,7 +70,6 @@ export const Background = styled.div`
   width: 80vw;
   top: 10vh;
   height: 100vh;
-  background-image: url(${require('../../assets/logo.jpg')});
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
