@@ -98,26 +98,6 @@ export const Background = styled.div`
 
 `;
 
-export const RevealP = styled.p`
-  position: relative;
-  &:after {
-    content: ' ';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    transform-origin: left;
-    transform: rotateY(90deg);
-    transition: transform 1s;
-  }
-  ${({ hide }) => hide && css`
-    &:after {
-      transform: rotateY(0deg);
-    }
-  `}
-`;
 
 
 export const Panels = styled.div`
@@ -148,9 +128,9 @@ export const Panels = styled.div`
     }
 
 
-    .panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
-    .panel2 { background-image:url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500); }
-    .panel3 { background-image:url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d); }
+    .panel1 { background-image: url('${require('../../assets/panel1.jpg')}'); }
+    .panel2 { background-image:url('${require('../../assets/panel2.jpg')}'); }
+    .panel3 { background-image:url('${require('../../assets/panel3.jpg')}'); }
     .panel4 { background-image:url(https://source.unsplash.com/ITjiVXcwVng/1500x1500); }
     .panel5 { background-image:url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500); }
 
