@@ -2,8 +2,27 @@ import React, { Component, ProtoTypes } from 'react';
 import { Container, Relative } from '../../theme/grid';
 import { Image, ProfileImage, Background, Img, Title, Panels, Panel } from './Home.style';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
+import YouTube from 'react-youtube';
 
 const panels = document.querySelectorAll('.panel');
+
+ const Video = {
+  opts1: {
+      height: '200',
+      width: '350',
+      id: "tzD9BkXGJ1M"
+  },
+  opts2: {
+      height: '200',
+      width: '350',
+      id: "mlVrkiCoKkg"
+  },
+  opts3: {
+      height: '200',
+      width: '350',
+      id: "8miqQQJEsO0"
+  }
+};
 
 
 export default class Home extends Component {
@@ -18,6 +37,8 @@ export default class Home extends Component {
     this.toggleOpen2 = this.toggleOpen2.bind(this);
     this.toggleOpen3 = this.toggleOpen3.bind(this);
   }
+
+
 
   toggleOpen1() {
     if(this.state.panel1 === "panel panel1") {
@@ -53,18 +74,27 @@ export default class Home extends Component {
         <ProfileImage/>
         <Panels>
           <div className={this.state.panel1} onClick={ this.toggleOpen1 }>
-            <p>Hey</p>
-            <p>Let's</p>
+            <YouTube
+            videoId={Video.opts1.id}
+            opts={Video.opts1}
+            />
+            <p>What is CrossFit?</p>
             <p>Dance</p>
           </div>
           <div className={this.state.panel2} onClick={ this.toggleOpen2 }>
-            <p>Give</p>
-            <p>Take</p>
+            <YouTube
+            videoId={Video.opts2.id}
+            opts={Video.opts2}
+            />
+            <p>Who can do it?</p>
             <p>Receive</p>
           </div>
           <div className={this.state.panel3} onClick={ this.toggleOpen3 }>
-            <p>Experience</p>
-            <p>It</p>
+            <YouTube
+            videoId={Video.opts3.id}
+            opts={Video.opts3}
+            />
+            <p>Instructors</p>
             <p>Today</p>
           </div>
         </Panels>

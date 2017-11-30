@@ -24,7 +24,7 @@ export const Title = styled.h2`
 
 
 export const ProfileImage = styled.div`
-  height: 120vh;
+  height: 5vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -117,7 +117,7 @@ export const Panels = styled.div`
         font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
         flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
         background 0.2s;
-      font-size: 20px;
+      font-size: 16px;
       background-size:cover;
       background-position:center;
       flex: 1;
@@ -160,16 +160,15 @@ export const Panels = styled.div`
 
     .panel p {
       text-transform: uppercase;
-      font-family: 'Amatic SC', cursive;
       text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-      font-size: 2em;
+      font-size: 4em;
     }
     .panel p:nth-child(2) {
       font-size: 4em;
     }
 
     .panel.open {
-      font-size:40px;
+      font-size:25px;
       flex: 5;
     }
 `;

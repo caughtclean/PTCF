@@ -8,8 +8,8 @@ export const Div = styled.div `
 `;
 
 export const Container = styled(Div)`
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 30px;
   padding-bottom: 30vh;
 
