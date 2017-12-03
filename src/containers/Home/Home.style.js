@@ -22,6 +22,10 @@ export const Title = styled.h2`
   text-align: center
 `;
 
+export const Journal = styled.a`
+
+`;
+
 
 export const ProfileImage = styled.div`
   height: 5vh;
@@ -161,14 +165,14 @@ export const Panels = styled.div`
     .panel p {
       text-transform: uppercase;
       text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-      font-size: 4em;
+      font-size: 1em;
     }
     .panel p:nth-child(2) {
-      font-size: 4em;
+      font-size: 3em;
     }
 
     .panel.open {
-      font-size:25px;
+      font-size:15px;
       flex: 5;
     }
 `;

@@ -79,7 +79,7 @@ export default class Home extends Component {
             opts={Video.opts1}
             />
             <p>What is CrossFit?</p>
-            <p>Dance</p>
+            <p>Here we can give a rundown of what CrossFit entails, workouts, benefits, lots of examples of lifts and WOD etc etc.</p>
           </div>
           <div className={this.state.panel2} onClick={ this.toggleOpen2 }>
             <YouTube
@@ -87,7 +87,8 @@ export default class Home extends Component {
             opts={Video.opts2}
             />
             <p>Who can do it?</p>
-            <p>Receive</p>
+            <p>Anyone can! Here we can give a quick rundown on the benefits of crossfit and
+            how its great for anyone of any age, health, etc. </p>
           </div>
           <div className={this.state.panel3} onClick={ this.toggleOpen3 }>
             <YouTube
@@ -95,11 +96,13 @@ export default class Home extends Component {
             opts={Video.opts3}
             />
             <p>Instructors</p>
-            <p>Today</p>
+            <p>Here we can list all the instructors, and links to their bios, who they are, what they are all about etc.</p>
           </div>
         </Panels>
         <Background/>
-        <Title> PTCF </Title>
+        <h1>About us</h1>
+        <p> About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.</p>
+        <a href="https://journal.crossfit.com" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="https://de45qwmlmgefw.cloudfront.net/badges/black-300x150.png" width="300px" height="150" alt="CrossFit Journal: The Performance-Based Lifestyle Resource" /></a>
       </Container>
 
     );
