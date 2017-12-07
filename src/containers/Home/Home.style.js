@@ -27,47 +27,6 @@ export const Journal = styled.a`
 `;
 
 
-export const ProfileImage = styled.div`
-  height: 5vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  text-align: center;
-  color: white;
-
-  font-size: 2em;
-
-  ${media.tablet`
-    font-size: 1em;
-    left: 0;
-    width: 100vw;
-    top: 10vh;
-    height: 100vh;
-    margin-top: 10vh;
-    margin-bottom: 300px;
-    `}
-      ${media.phone`
-    font-size: 1em;
-    left: 0;
-    width: 100vw;
-    top: 0;
-    height: 100vh;
-    margin-top: 10vh;
-    margin-bottom: 300px;
-    `}
-
-  h2 {
-    margin: 0;
-  }
-`
-
 export const Background = styled.div`
   position: fixed;
   left: 10vw;
@@ -78,7 +37,8 @@ export const Background = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   z-index: -99;
-  opacity: 0.35;
+  opacity: 0.55;
+  background-image: url(${require('../../assets/powtowncrossfit.jpg')});
 
   ${media.tablet`
     font-size: 1em;
@@ -108,7 +68,10 @@ export const Panels = styled.div`
   min-height:100vh;
   overflow: hidden;
   display: flex;
-
+  margin-top: 30vh;
+  &:hover {
+    cursor: pointer;
+  }
   .panel {
       background:#6B0F9C;
       box-shadow:inset 0 0 0 5px rgba(255,255,255,0.1);

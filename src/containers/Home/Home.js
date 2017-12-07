@@ -1,6 +1,6 @@
 import React, { Component, ProtoTypes } from 'react';
 import { Container, Relative } from '../../theme/grid';
-import { Image, ProfileImage, Background, Img, Title, Panels, Panel } from './Home.style';
+import { Image, Background, Img, Title, Panels, Panel } from './Home.style';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import YouTube from 'react-youtube';
 
@@ -71,7 +71,7 @@ export default class Home extends Component {
   render() {
     return (
       <Container>
-        <ProfileImage/>
+        <Background/>
         <Panels>
           <div className={this.state.panel1} onClick={ this.toggleOpen1 }>
             <YouTube

@@ -4,6 +4,13 @@ import { Link } from 'react-router';
 import media from '../../theme/media';
 
 
+export const Logo = styled.img`
+  position: relative;
+  height: 10%;
+  width: 10%;
+  bottom: 0;
+`;
+
 export const NavigationContainer = styled(Flex)`
   position: absolute;
   justify-content: center;
@@ -39,6 +46,7 @@ export const SocialContainer = styled(Flex)`
   width: 25%;
   height: 100%;
   position: fixed;
+
 
   ${media.phone`
     display: none;
@@ -76,6 +84,7 @@ export const NavItem = styled(Link)`
   positon: relative;
   text-decoration: none;
   color: black;
+  padding-top: 10vh;
   &:hover {
     color: yellow;
     &:after {
