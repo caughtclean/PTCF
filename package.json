@@ -2,7 +2,7 @@
   "name": "PRCF",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://caughtclean.github.io/PTCF",
+  "homepage": "http://caughtclean.github.io/ptcf",
   "dependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",

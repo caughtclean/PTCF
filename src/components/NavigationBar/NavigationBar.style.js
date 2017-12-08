@@ -48,13 +48,7 @@ export const SocialContainer = styled(Flex)`
   position: fixed;
 
 
-  ${media.phone`
-    display: none;
-  `}
 
-   ${media.tablet`
-    display: none;
-  `}
 
 
  li a {
