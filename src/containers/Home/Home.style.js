@@ -33,7 +33,7 @@ export const Background = styled.div`
   width: 80vw;
   top: 10vh;
   height: 100vh;
-  background-size: 70%;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
   z-index: -99;
