@@ -72,6 +72,7 @@ export default class Home extends Component {
     return (
       <Container>
         <Background/>
+        <Title>PTCF</Title>
         <Panels>
           <div className={this.state.panel1} onClick={ this.toggleOpen1 }>
             <YouTube
@@ -81,6 +82,8 @@ export default class Home extends Component {
             <p>What is CrossFit?</p>
             <p>Here we can give a rundown of what CrossFit entails, workouts, benefits, lots of examples of lifts and WOD etc etc.</p>
           </div>
+        </Panels>
+        <Panels>
           <div className={this.state.panel2} onClick={ this.toggleOpen2 }>
             <YouTube
             videoId={Video.opts2.id}
@@ -90,6 +93,8 @@ export default class Home extends Component {
             <p>Anyone can! Here we can give a quick rundown on the benefits of crossfit and
             how its great for anyone of any age, health, etc. </p>
           </div>
+        </Panels>
+        <Panels>
           <div className={this.state.panel3} onClick={ this.toggleOpen3 }>
             <YouTube
             videoId={Video.opts3.id}

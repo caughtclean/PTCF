@@ -16,9 +16,9 @@ export const Img = styled.img`
 `;
 
 export const Title = styled.h2`
-  margin-top: 20vh;
+  margin-top: 5vh;
   color: black;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
   text-align: center
 `;
 
@@ -68,7 +68,6 @@ export const Panels = styled.div`
   min-height:100vh;
   overflow: hidden;
   display: flex;
-  margin-top: 30vh;
   &:hover {
     cursor: pointer;
   }
@@ -98,8 +97,6 @@ export const Panels = styled.div`
     .panel1 { background-image: url('${require('../../assets/panel1.jpg')}'); }
     .panel2 { background-image:url('${require('../../assets/panel2.jpg')}'); }
     .panel3 { background-image:url('${require('../../assets/panel3.jpg')}'); }
-    .panel4 { background-image:url(https://source.unsplash.com/ITjiVXcwVng/1500x1500); }
-    .panel5 { background-image:url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500); }
 
     .panel > * {
       margin:0;
@@ -136,7 +133,7 @@ export const Panels = styled.div`
 
     .panel.open {
       font-size:15px;
-      flex: 5;
+      flex: 1;
     }
 `;
 
