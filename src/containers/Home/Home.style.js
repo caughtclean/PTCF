@@ -8,11 +8,10 @@ export const Image = styled.img`
 `
 
 export const Img = styled.img`
-  height: 25%;
-  width: 25%;
-  float: right;
-  bottom: 0;
-  right: -20vh;
+  position: absolute;
+  justify-content: center;
+  right: 50%;
+  left: 50%;
 `;
 
 export const Title = styled.h2`
@@ -45,9 +44,10 @@ export const Background = styled.div`
     left: 0;
     width: 100vw;
     top: 0;
-    height: 80vh;
+    height: 100vh;
     margin-top: 10vh;
     margin-bottom: 300px;
+    background-size: 100%;
     `}
       ${media.phone`
     font-size: 1em;
@@ -57,6 +57,7 @@ export const Background = styled.div`
     height: 100%
     margin-top: 10vh;
     margin-bottom: 300px;
+    background-size: 100%;
     `}
 
 
@@ -94,7 +95,9 @@ export const Panels = styled.div`
     }
 
 
-    .panel1 { background-image: url('${require('../../assets/panel1.jpg')}'); }
+    .panel1 { background-image: url('${require('../../assets/panel1.jpg')}');
+
+     }
     .panel2 { background-image:url('${require('../../assets/panel2.jpg')}'); }
     .panel3 { background-image:url('${require('../../assets/panel3.jpg')}'); }
 

@@ -34,8 +34,8 @@ export const Container = styled(Div)`
   `}
 
   ${media.phone`
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 15px;
     font-size: 14px;
   `}

@@ -6,13 +6,13 @@ import media from '../../theme/media';
 
 export const Logo = styled.img`
   position: relative;
-  height: 10%;
-  width: 10%;
+  height: 25%;
+  width: 25%;
   bottom: 0;
 `;
 
 export const NavigationContainer = styled(Flex)`
-  position: absolute;
+  position: relative;
   justify-content: center;
   right: 0;
   left: 0;

@@ -10,12 +10,9 @@ class NavigationBar extends Component {
   render() {
     return (
       <NavigationContainer>
-          <Logo
-            src={require('../../assets/powtowncrossfit.jpg')}
-            alt="logo"/>
-        <NavItem to="/">Home</NavItem>
-        <NavItem to="/instructors">Instructors</NavItem>
-        <NavItem to="/schedule">Schedule/Classes</NavItem>
+        <Logo
+          src={require('../../assets/logonew.png')}
+          alt="logo"/>
       </NavigationContainer>
     );
   }

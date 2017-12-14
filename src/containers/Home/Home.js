@@ -3,6 +3,7 @@ import { Container, Relative } from '../../theme/grid';
 import { Image, Background, Img, Title, Panels, Panel } from './Home.style';
 import YouTube from 'react-youtube';
 import SocialMob from '../../components/Social/SocialMob';
+import NavigationBar from '../../components/NavigationBar/NavigationBar';
 
 const panels = document.querySelectorAll('.panel');
 
@@ -71,8 +72,7 @@ export default class Home extends Component {
   render() {
     return (
       <Container>
-        <Background/>
-        <Title>PTCF</Title>
+      <NavigationBar/>
         <Panels>
           <div className={this.state.panel1} onClick={ this.toggleOpen1 }>
             <YouTube
@@ -104,7 +104,6 @@ export default class Home extends Component {
             <p>Here we can list all the instructors, and links to their bios, who they are, what they are all about etc.</p>
           </div>
         </Panels>
-        <Background/>
         <h1>About us</h1>
         <p> About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.</p>
         <h1>Instructors</h1>
