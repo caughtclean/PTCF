@@ -11,7 +11,7 @@ class NavigationBar extends Component {
     return (
       <NavigationContainer>
         <Logo
-          src={require('../../assets/logonew.png')}
+          src={require('../../assets/ptcfheader.png')}
           alt="logo"/>
       </NavigationContainer>
     );

@@ -6,8 +6,8 @@ import media from '../../theme/media';
 
 export const Logo = styled.img`
   position: relative;
-  height: 25%;
-  width: 25%;
+  height: 100%;
+  width: 100%;
   bottom: 0;
 `;
 
