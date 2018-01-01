@@ -23,7 +23,7 @@ export const NavigationContainer = styled(Flex)`
     right: 0;
     justify-content: center;
     top: 0;
-    left:20px;
+    left: 0;
     `}
    ${media.phone`
     margin: 0;
