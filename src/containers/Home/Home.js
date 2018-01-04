@@ -1,6 +1,6 @@
 import React, { Component, ProtoTypes } from 'react';
 import { Container, Relative } from '../../theme/grid';
-import { Image, Background, Img, Title, Panels, Panel } from './Home.style';
+import { Image, Background, Img, Title, Panels, Panel, Schedule } from './Home.style';
 import YouTube from 'react-youtube';
 import SocialMob from '../../components/Social/SocialMob';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
@@ -109,7 +109,11 @@ export default class Home extends Component {
         <h1>Instructors</h1>
         <p> Here we will put a short bio on Eddie, his experience, qualifcations, Background etc. We will explain what he has to offer to customers and people new to CrossFit and the benfits. Later we will add addtion instructors.</p>
         <h1>Schedule</h1>
-        <p> Here we will list the current schedule for classes etc. I think I will insert a fancy calander graphic here so its nice and clear.</p>
+        <p> With mulitple classes a day and even private classes available, we are sure you can find time to get a workout in any day of the week! </p>
+        <Schedule
+          src={require('../../assets/schedule00.png')}
+          alt="schedule"/>
+
         <h1>Pricing and Plans</h1>
         <p> Here I will list current pricing and membership plans etc. As well as deals for new customers and deals for trying out CrossFit as well as a few rules like getting people to phone or text 24 hours in advance if they wish to try out a free class so that Eddie will have time to familarize them with the eqiupment, class structure and to get a idea of where they are fitness wise etc, see where they stand. </p>
         <a href="https://journal.crossfit.com" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="https://de45qwmlmgefw.cloudfront.net/badges/black-300x150.png" width="300px" height="150" alt="CrossFit Journal: The Performance-Based Lifestyle Resource" /></a>
