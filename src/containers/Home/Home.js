@@ -109,7 +109,7 @@ export default class Home extends Component {
         <h1>Instructors</h1>
         <p> Here we will put a short bio on Eddie, his experience, qualifcations, Background etc. We will explain what he has to offer to customers and people new to CrossFit and the benfits. Later we will add addtion instructors.</p>
         <h1>Schedule</h1>
-        <p> With mulitple classes a day and even private classes available, we are sure you can find time to get a workout in any day of the week! </p>
+        <p> With mulitple classes a day and even private classes available, we are sure you can find the perfect time to get a workout in any day of the week! </p>
         <Schedule
           src={require('../../assets/schedule00.png')}
           alt="schedule"/>

@@ -25,7 +25,7 @@ export const Links = styled.h4`
 
 export const AAA = styled.a`
   text-decoration: none;
-  filter: grayscale(75%);
+  filter: grayscale(25%);
   padding: 10px;
 
    ${media.tablet`

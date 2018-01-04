@@ -6,27 +6,15 @@ class SocialMob extends Component {
   render() {
     return (
       <SocialMobContainer>
-       <AAA target="_blank" href="">
+       <AAA target="_blank" href="https://www.facebook.com/powtowncrossfit/">
         <img
           src={require('../../assets/facebook.png')}/>
        </AAA>
-       <AAA target="_blank" href="https://www.instagram.com/">
+       <AAA target="_blank" href="https://www.instagram.com/powtowncrossfit/">
         <img
           src={require('../../assets/instagram.png')}/>
        </AAA>
-       <AAA target="_blank" href="https://www.twitch.tv/">
-        <img
-          src={require('../../assets/twitch.png')}/>
-       </AAA>
-       <AAA target="_blank" href="https://www.linkedin.com/">
-        <img
-          src={require('../../assets/linkedin.png')}/>
-       </AAA>
-       <AAA target="_blank" href="https://www.youtube.com/">
-        <img
-          src={require('../../assets/youtube.png')}/>
-       </AAA>
-       <AAA href="mailto:">
+       <AAA href="mailto: info@powtowncrossfit.com">
         <img
           src={require('../../assets/email.png')}/>
        </AAA>
