@@ -21,7 +21,6 @@ export const Title = styled.h2`
   text-align: center
 `;
 
-
 export const Schedule = styled.img`
   position: relative;
   height: 100%;

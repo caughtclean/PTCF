@@ -80,7 +80,7 @@ export default class Home extends Component {
             opts={Video.opts1}
             />
             <p>What is CrossFit?</p>
-            <p>Here we can give a rundown of what CrossFit entails, workouts, benefits, lots of examples of lifts and WOD etc etc.</p>
+            <p>All CrossFit workouts are based on functional movements, and these movements reflect the best aspects of gymnastics, weightlifting, running, rowing and more. These are the core movements of life. </p>
           </div>
         </Panels>
         <Panels>
@@ -90,8 +90,7 @@ export default class Home extends Component {
             opts={Video.opts2}
             />
             <p>Who can do it?</p>
-            <p>Anyone can! Here we can give a quick rundown on the benefits of crossfit and
-            how its great for anyone of any age, health, etc. </p>
+            <p>CrossFit is for everyone! Workouts are tailored to every individuals fitness level and abilities on the fly to make sure everyone can get the most out of every workout, regardless of age or fitness level.</p>
           </div>
         </Panels>
         <Panels>
@@ -104,10 +103,8 @@ export default class Home extends Component {
             <p>Here we can list all the instructors, and links to their bios, who they are, what they are all about etc.</p>
           </div>
         </Panels>
-        <h1>About us</h1>
+        <h1>PowTown CrossFit</h1>
         <p> About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.</p>
-        <h1>Instructors</h1>
-        <p> Here we will put a short bio on Eddie, his experience, qualifcations, Background etc. We will explain what he has to offer to customers and people new to CrossFit and the benfits. Later we will add addtion instructors.</p>
         <h1>Schedule</h1>
         <p> With mulitple classes a day and even private classes available, we are sure you can find the perfect time to get a workout in any day of the week! </p>
         <Schedule
