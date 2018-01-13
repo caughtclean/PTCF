@@ -6,6 +6,11 @@ import media from '../../theme/media';
 export const Image = styled.img`
   width: 100%
 `
+export const Image2 = styled.img`
+  ${media.phone`
+    width: 100%;
+  `}
+`;
 
 export const Img = styled.img`
   position: absolute;
@@ -102,9 +107,7 @@ export const Panels = styled.div`
     }
 
 
-    .panel1 { background-image: url('${require('../../assets/panel1.jpg')}');
-
-     }
+    .panel1 { background-image:url('${require('../../assets/panel1.jpg')}'); }
     .panel2 { background-image:url('${require('../../assets/panel2.jpg')}'); }
     .panel3 { background-image:url('${require('../../assets/panel3.jpg')}'); }
 
@@ -141,9 +144,19 @@ export const Panels = styled.div`
       font-size: 3em;
     }
 
+
     .panel.open {
       font-size:15px;
       flex: 1;
     }
+
+    .panel img {
+      width: 65%;
+
+      ${media.phone`
+        width: 100%;
+      `}
+    }
+
 `;
 
