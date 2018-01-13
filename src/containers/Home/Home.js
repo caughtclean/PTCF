@@ -1,6 +1,6 @@
 import React, { Component, ProtoTypes } from 'react';
 import { Container, Relative } from '../../theme/grid';
-import { Image, Image2, Background, Img, Title, Panels, Panel, Schedule } from './Home.style';
+import { Image, Image2, Image3, Background, Img, Title, Panels, Panel, Schedule } from './Home.style';
 import YouTube from 'react-youtube';
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from 'react-image-gallery';
@@ -29,10 +29,6 @@ const panels = document.querySelectorAll('.panel');
 
 
  const images = [
-      {
-        original: require('../../assets/eddie1.JPG'),
-        thumbnail: require('../../assets/eddie1.JPG')
-      },
       {
         original: require('../../assets/eddie2.JPG'),
         thumbnail: require('../../assets/eddie2.JPG')
@@ -136,10 +132,10 @@ export default class Home extends Component {
         <h1>Pricing and Plans</h1>
         <p> Here I will list current pricing and membership plans etc. As well as deals for new customers and deals for trying out CrossFit as well as a few rules like getting people to phone or text 24 hours in advance if they wish to try out a free class so that Eddie will have time to familarize them with the eqiupment, class structure and to get a idea of where they are fitness wise etc, see where they stand. </p>
         <a href="https://journal.crossfit.com" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="https://de45qwmlmgefw.cloudfront.net/badges/black-300x150.png" width="300px" height="150" alt="CrossFit Journal: The Performance-Based Lifestyle Resource" /></a>
-         <ImageGallery
-              items={images}
-              showThumbnails={true}
-             />
+        <ImageGallery
+            items={images}
+            showThumbnails={true}
+           />
         <SocialMob/>
       </Container>
 

@@ -7,9 +7,14 @@ export const Image = styled.img`
   width: 100%
 `
 export const Image2 = styled.img`
-  ${media.phone`
+  width: 50%;
+  ${media.tablet`
     width: 100%;
   `}
+`;
+
+export const Image3 = styled.div`
+  width = vw;
 `;
 
 export const Img = styled.img`
@@ -109,7 +114,7 @@ export const Panels = styled.div`
 
     .panel1 { background-image:url('${require('../../assets/panel1.jpg')}'); }
     .panel2 { background-image:url('${require('../../assets/panel2.jpg')}'); }
-    .panel3 { background-image:url('${require('../../assets/panel3.jpg')}'); }
+    .panel3 { background-image:url('${require('../../assets/drone.gif')}'); }
 
     .panel > * {
       margin:0;
@@ -139,8 +144,10 @@ export const Panels = styled.div`
       text-transform: uppercase;
       text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
       font-size: 1em;
+      background: black;
     }
     .panel p:nth-child(2) {
+      background: none;
       font-size: 3em;
     }
 
@@ -153,8 +160,8 @@ export const Panels = styled.div`
     .panel img {
       width: 65%;
 
-      ${media.phone`
-        width: 100%;
+      ${media.tablet`
+        width: 100vw;
       `}
     }
 
