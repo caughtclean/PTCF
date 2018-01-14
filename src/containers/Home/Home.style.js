@@ -24,6 +24,7 @@ export const Img = styled.img`
   left: 50%;
 `;
 
+
 export const Title = styled.h2`
   margin-top: 5vh;
   color: black;
@@ -38,10 +39,15 @@ export const Schedule = styled.img`
   bottom: 0;
 `;
 
-export const Journal = styled.a`
-
+export const Journal = styled.div`
+  display: flex;
+  justify-content: center;
 `;
 
+export const Gallery = styled.div`
+  display: flex;
+  justify-content: center
+`;
 
 export const Background = styled.div`
   position: fixed;
@@ -129,6 +135,7 @@ export const Panels = styled.div`
     .panel > *:first-child {
       transform: translateY(-100%);
     }
+
     .panel.open-active > *:first-child {
       transform: translateY(0);
     }
@@ -146,14 +153,21 @@ export const Panels = styled.div`
       font-size: 1em;
       background: black;
     }
+
+
     .panel p:nth-child(2) {
       background: none;
       font-size: 3em;
+
+      ${media.tablet`
+        font-size: 1.5em;
+      `}
+
     }
 
 
     .panel.open {
-      font-size:15px;
+      font-size:12px;
       flex: 1;
     }
 

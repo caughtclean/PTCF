@@ -1,6 +1,6 @@
 import React, { Component, ProtoTypes } from 'react';
 import { Container, Relative } from '../../theme/grid';
-import { Image, Image2, Image3, Background, Img, Title, Panels, Panel, Schedule } from './Home.style';
+import { Image, Image2, Image3, Background, Img, Title, Panels, Panel, Schedule, Journal } from './Home.style';
 import YouTube from 'react-youtube';
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from 'react-image-gallery';
@@ -109,7 +109,7 @@ export default class Home extends Component {
               opts={Video.opts2}
             />
             <p>Who can do it?</p>
-            <p>CrossFit is for everyone! Workouts are tailored to every individuals fitness level and abilities on the fly to make sure everyone can get the most out of every workout, regardless of age or fitness level.</p>
+            <p>CrossFit is for everyone! Workouts are tailored to every individuals fitness level and abilities on the fly to make sure everyone can get the most out of every workout, regardless of age, gender or fitness level. PowTown CrossFit is a family cultured gym where you are part of a team.</p>
           </div>
         </Panels>
         <Panels>
@@ -117,12 +117,10 @@ export default class Home extends Component {
             <Image2
               src={require('../../assets/eddie1.JPG')}
               alt="eddie1"/>
-            <p>Instructors</p>
-            <p>Here we can list all the instructors, and links to their bios, who they are, what they are all about etc.Here we can list all the instructors, and links to their bios, who they are, what they are all about etc.Here we can list all the instructors, and links to their bios, who they are, what they are all about etc.Here we can list all the instructors, and links to their bios, who they are, what they are all about etc.Here we can list all the instructors, and links to their bios, who they are, what they are all about etc.</p>
+            <p>Eddie Charlton (owner/instructor)</p>
+            <p>Eddie was born and raised in Powell River. He left at age 20 to attend trade school and is now back in town to bring the best, proven, and flexible fitness regime on the planet, for all ages and genders, to Powell River. Eddie played sports his whole, primarily Rep Hockey and has always been a avid gym rat. As he hit his mid 20's he got more serious about training, diet, and other great habits he still works on today at 36 years old. When Eddie found Sheepdog CrossFit in Port Coquitlam he was instantly hooked. CrossFit made him feel like he was truly part of a team and family and he wants to bring that amazing fitness culture to Powell River.</p>
           </div>
         </Panels>
-        <h1>PowTown CrossFit</h1>
-        <p> About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.About us will go here describing the gym, the culture, whats offered etc.</p>
         <h1>Schedule</h1>
         <p> With mulitple classes a day and even private classes available, we are sure you can find the perfect time to get a workout in any day of the week! </p>
         <Schedule
@@ -130,13 +128,21 @@ export default class Home extends Component {
           alt="schedule"/>
 
         <h1>Pricing and Plans</h1>
-        <p> Here I will list current pricing and membership plans etc. As well as deals for new customers and deals for trying out CrossFit as well as a few rules like getting people to phone or text 24 hours in advance if they wish to try out a free class so that Eddie will have time to familarize them with the eqiupment, class structure and to get a idea of where they are fitness wise etc, see where they stand. </p>
-        <a href="https://journal.crossfit.com" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="https://de45qwmlmgefw.cloudfront.net/badges/black-300x150.png" width="300px" height="150" alt="CrossFit Journal: The Performance-Based Lifestyle Resource" /></a>
+        <p> There are many plans and options for what you are looking for and what fits your schedule. First class is free! Come try it out and see what CrossFit has to offer. Please phone, text, or email 24 hours ahead of time to let Eddie know you are coming so he can assess you and tailor the workout for you that day.   </p>
+        <h2>Monthly $120.00 per month (plus taxes)</h2>
+        <p> First month is $60.00. This includles unlimted access to classes.</p>
+        <h2>10 class punch card - $110 (plus taxes)</h2>
+        <p> A 10 class punch card for people in and out of town etc. </p>
+        <h2> 1 on 1 personal training $60.00 per hour (plus taxes) </h2>
+        <p> 1 on 1 personal training is available. Also for team rates, please call or email. </p>
         <ImageGallery
             items={images}
             showThumbnails={true}
            />
         <SocialMob/>
+        <Journal>
+        <a href="https://journal.crossfit.com" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="https://de45qwmlmgefw.cloudfront.net/badges/black-300x150.png" width="300px" height="150" alt="CrossFit Journal: The Performance-Based Lifestyle Resource" /></a>
+        </Journal>
       </Container>
 
     );
