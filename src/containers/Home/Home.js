@@ -1,6 +1,6 @@
 import React, { Component, ProtoTypes } from 'react';
 import { Container, Relative } from '../../theme/grid';
-import { Image, Image2, Image3, Background, Img, Title, Panels, Panel, Schedule, Journal } from './Home.style';
+import { Image, Image2, Image3, Background, Img, Title, Panels, Panel, Schedule, Journal, Gallery } from './Home.style';
 import YouTube from 'react-youtube';
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from 'react-image-gallery';
@@ -40,6 +40,14 @@ const panels = document.querySelectorAll('.panel');
       {
         original: require('../../assets/eddie4.JPG'),
         thumbnail: require('../../assets/eddie4.JPG')
+      },
+      {
+        original: require('../../assets/eddie5.JPG'),
+        thumbnail: require('../../assets/eddie5.JPG')
+      },
+      {
+        original: require('../../assets/eddie6.JPG'),
+        thumbnail: require('../../assets/eddie6.JPG')
       }
     ]
 
@@ -118,7 +126,7 @@ export default class Home extends Component {
               src={require('../../assets/eddie1.JPG')}
               alt="eddie1"/>
             <p>Eddie Charlton (owner/instructor)</p>
-            <p>Eddie was born and raised in Powell River. He left at age 20 to attend trade school and is now back in town to bring the best, proven, and flexible fitness regime on the planet, for all ages and genders, to Powell River. Eddie played sports his whole, primarily Rep Hockey and has always been a avid gym rat. As he hit his mid 20's he got more serious about training, diet, and other great habits he still works on today at 36 years old. When Eddie found Sheepdog CrossFit in Port Coquitlam he was instantly hooked. CrossFit made him feel like he was truly part of a team and family and he wants to bring that amazing fitness culture to Powell River.</p>
+            <p>Eddie was born and raised in Powell River. He left at age 20 to attend trade school and is now back in town to bring the best, proven, and flexible fitness regime on the planet, for all ages and genders, to Powell River. Eddie played sports his whole life, primarily Rep Hockey and has always been a avid gym rat. As he hit his mid 20's he got more serious about training, diet, and other great habits he still works on today at 36 years old. When Eddie found Sheepdog CrossFit in Port Coquitlam he was instantly hooked. CrossFit made him feel like he was truly part of a team and a family. He wants to bring that amazing fitness culture to Powell River.</p>
           </div>
         </Panels>
         <h1>Schedule</h1>
@@ -135,11 +143,14 @@ export default class Home extends Component {
         <p> A 10 class punch card for people in and out of town etc. </p>
         <h2> 1 on 1 personal training $60.00 per hour (plus taxes) </h2>
         <p> 1 on 1 personal training is available. Also for team rates, please call or email. </p>
-        <ImageGallery
+        <Gallery>
+          <ImageGallery
             items={images}
             showThumbnails={true}
-           />
+          />
+        </Gallery>
         <SocialMob/>
+        <p>Any Questions? Email Us! Also check out or social media pages, or the CrossFit journal for up to date info!</p>
         <Journal>
         <a href="https://journal.crossfit.com" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="https://de45qwmlmgefw.cloudfront.net/badges/black-300x150.png" width="300px" height="150" alt="CrossFit Journal: The Performance-Based Lifestyle Resource" /></a>
         </Journal>

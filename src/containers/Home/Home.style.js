@@ -42,11 +42,18 @@ export const Schedule = styled.img`
 export const Journal = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: 5%;
 `;
 
 export const Gallery = styled.div`
   display: flex;
-  justify-content: center
+  justify-content: center;
+  margin-bottom: 5%;
+
+
+  .image-gallery {
+    width: 50%;
+  }
 `;
 
 export const Background = styled.div`
