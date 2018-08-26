@@ -139,7 +139,7 @@ export default class Home extends Component {
         <p> There are many plans and options for what you are looking for and what fits your schedule. First class is free! Come try it out and see what CrossFit has to offer. Please phone, text, or email 24 hours ahead of time to let Eddie know you are coming so he can assess you and tailor the workout for you that day.   </p>
         <h2>Monthly $120.00 per month (plus taxes)</h2>
         <p> First month is $60.00. This includes unlimited access to classes.</p>
-        <h2>10 class punch card - $110 (plus taxes)</h2>
+        <h2>10 class punch card - $150 (plus taxes)</h2>
         <p> A 10 class punch card for people in and out of town etc. </p>
         <h2> 1 on 1 personal training $60.00 per hour (plus taxes) </h2>
         <p> 1 on 1 personal training is available. Also for team rates, please call or email. </p>
